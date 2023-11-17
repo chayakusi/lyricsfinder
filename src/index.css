@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.App input {
+  margin-top: 20px;
+  width: 300px;
+  height: 38px;
+  font-size: 14px;
+  font-style: oblique;
+  padding-left: 5px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: green !important;
+  border-color: green;
+  --bs-btn-active-border-color: green;
+}
+
+.text-main {
+  color: green;
+}
+
+.header {
+  font-size: xxx-large;
+  font-family: cursive;
+}
+
+.search {
+  justify-content: space-between;
+}
+
+.card-body {
+  background-color: black;
+}
